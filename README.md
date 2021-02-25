@@ -21,12 +21,15 @@ DB query:-
 USE [POS]
 GO
 
+
 /****** Object:  Table [dbo].[tblLoyaltyCard]    Script Date: 2/25/2021 2:57:12 PM ******/
 SET ANSI_NULLS ON
 GO
 
+
 SET QUOTED_IDENTIFIER ON
 GO
+
 
 CREATE TABLE [dbo].[tblLoyaltyCard](
 	[phoneNo] [int] NOT NULL,
