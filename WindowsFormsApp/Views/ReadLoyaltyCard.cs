@@ -72,7 +72,7 @@ namespace WindowsFormsApp.Views
         {
             DataSet ds = new addloyalty().getLoyaltyCardByCardNo(cardNo.Text);
 
-            if (clear != true && ds.Tables.Count == 1)
+            if (clear != true) //should be add condion for empty card read
             {
                 name.Text = ds.Tables[0].Rows[0].ItemArray[1].ToString();
                 phoneNo.Text = ds.Tables[0].Rows[0].ItemArray[0].ToString();
